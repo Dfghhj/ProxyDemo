@@ -7,7 +7,7 @@ package proxy.jdk;
  */
 public class CustomerStaticProxy implements ICustomer {
 
-    private Customer customer = new Customer();
+    private ICustomer customer = new Customer();
 
     @Override
     public void buy(String s) {
